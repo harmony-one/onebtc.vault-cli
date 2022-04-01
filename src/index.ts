@@ -5,7 +5,7 @@ import { Command } from 'commander';
 const program = new Command();
 
 program
-  .name('vault-cli')
+  .name('onebtc-cli')
   .description('CLI to mange 1BTC Vault collateral')
   .version('1.0.0');
 

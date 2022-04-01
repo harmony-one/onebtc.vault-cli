@@ -1,5 +1,5 @@
 {
-  "name": "vault-cli",
+  "name": "onebtc-cli",
   "version": "1.0.0",
   "description": "1BTC bridge vault cli",
   "main": "./lib/index.js",
@@ -60,6 +60,7 @@
     "typescript": "^4.4.3"
   },
   "dependencies": {
+    "@mitsuru793/commander-document-generator": "^0.1.2",
     "@sentry/node": "^6.19.3",
     "aws-sdk": "^2.1105.0",
     "axios": "^0.21.4",
