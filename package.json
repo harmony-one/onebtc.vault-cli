@@ -1,16 +1,16 @@
 {
-  "name": "onebtc-cli2",
-  "version": "1.0.2",
+  "name": "onebtc-cli",
+  "version": "1.0.3",
   "description": "1BTC bridge vault cli",
   "main": "./lib/index.js",
   "bin": {
-    "onebtc2": "./lib/index.js"
+    "onebtc": "./lib/index.js"
   },
   "preferGlobal": true,
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc",
-    "start": "node bin/index.js",
+    "start": "node lib/index.js",
     "test": "jest",
     "coverage": "jest --coverage",
     "lint": "eslint . --ext .ts",
