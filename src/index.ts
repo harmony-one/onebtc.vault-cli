@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import signale from 'signale';
 import { asyncHandler } from './utils';
 import { VaultCli } from './VaultCli';

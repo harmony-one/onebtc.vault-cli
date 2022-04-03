@@ -1,12 +1,16 @@
 {
-  "name": "onebtc-cli",
+  "name": "onebtc-cli2",
   "version": "1.0.2",
   "description": "1BTC bridge vault cli",
   "main": "./lib/index.js",
+  "bin": {
+    "onebtc2": "./lib/index.js"
+  },
+  "preferGlobal": true,
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "rimraf lib && tsc",
-    "start": "node lib/index.js",
+    "start": "node bin/index.js",
     "test": "jest",
     "coverage": "jest --coverage",
     "lint": "eslint . --ext .ts",
@@ -23,7 +27,6 @@
     "type": "git",
     "url": "https://github.com/harmony-one/onebtc.vault-cli"
   },
-  "bin": "./lib",
   "keywords": [],
   "author": "harmony",
   "license": "ISC",
